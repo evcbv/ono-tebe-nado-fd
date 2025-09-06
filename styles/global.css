@@ -35,4 +35,11 @@ img {
 
 button {
   font: inherit;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
 }
+
