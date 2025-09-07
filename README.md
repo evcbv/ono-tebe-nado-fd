@@ -1,1 +1,1 @@
-git@github.com:evcbv/ono-tebe-nado-fd.git
+https://github.com/evcbv/ono-tebe-nado-fd
