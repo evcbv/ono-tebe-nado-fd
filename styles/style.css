@@ -65,6 +65,7 @@
     background-size: cover;
     position: relative;
     background-position: center;
+    margin-bottom: 155px;
 }
 
 .overlay {
@@ -139,8 +140,9 @@
 }
 
 .lots {
-    padding: 155px 24px 120px;
-    margin-bottom: 25px;
+    padding-left: 25px;
+    margin-bottom: 142px;
+    box-sizing: border-box;
 }
 
 .lots__heading {
@@ -163,6 +165,7 @@
 
 .lots__card-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 26px;
     list-style: none;
     width: 100%;
@@ -235,6 +238,7 @@
 
 .about__logo {
     justify-items: center;
+    padding-left: 7px;
 }
 
 .about__logo-image {
@@ -283,7 +287,7 @@
     grid-template-columns: 1fr 163.9px 1fr;
     padding: 0 50px;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 182px;
 }
 
 .footer__menu-list {
