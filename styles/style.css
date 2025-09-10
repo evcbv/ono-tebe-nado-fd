@@ -288,6 +288,7 @@
     padding: 0 50px;
     width: 100%;
     margin-top: 182px;
+    
 }
 
 .footer__menu-list {
@@ -319,6 +320,7 @@
 .footer_type_address {
     justify-self: start;
     width: 265px;
+    padding-bottom: 82px;
 }
 
 .footer__menu-list-soc {
