@@ -3,7 +3,6 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     width: 100%;
-    height: 293px;
     background-color: #fff;
     padding: 92px 50px;
 }
@@ -34,12 +33,14 @@
     justify-self: center;
 }
 
-.header__address {
+.address {
     display: flex;
     flex-direction: column;
-    max-width: 240px;
+}
+
+.header_type_address {
     justify-self: end;
-    align-items: flex-start;
+    max-width: 240px;
 }
 
 .header__address-list {
@@ -139,7 +140,7 @@
 
 .lots {
     padding: 155px 24px 120px;
-    height: 1052px;
+    margin-bottom: 25px;
 }
 
 .lots__heading {
@@ -152,10 +153,12 @@
 
 .card {
     position: relative;
-    height: 596px;
+    min-height: 596px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-size: cover;
+    background-position: center;
 }
 
 .lots__card-list {
@@ -163,7 +166,7 @@
     gap: 26px;
     list-style: none;
     width: 100%;
-    height: 596px;
+    margin-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -201,20 +204,14 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .lots__look-more-link {
@@ -227,7 +224,6 @@
 
 .about {
     width: 1052px;
-    height: 595px;
     padding-top: 10px;
     padding-left: 20px;
 }
@@ -235,7 +231,6 @@
 .about__column {
     display: grid;
     grid-template-columns: 334px 1fr;
-    height: 595px;
 }
 
 .about__logo {
@@ -258,7 +253,7 @@
 }
 
 .about__content {
-    padding-top: 63px;
+    padding-top: 100px;
     padding-left: 28px;
     margin: auto;
 }
@@ -273,14 +268,13 @@
 
 .about__text {
     width: 690px;
-    height: 312px;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     color: #000;
 }
 
-.about__text-first {
+.about__text-important {
     padding-bottom: 24px;
 }
 
@@ -289,8 +283,7 @@
     grid-template-columns: 1fr 163.9px 1fr;
     padding: 0 50px;
     width: 100%;
-    height: 180px;
-    margin-top: 155px;
+    margin-top: 180px;
 }
 
 .footer__menu-list {
@@ -319,11 +312,9 @@
     height: 48px;
 }
 
-.footer__address {
-    display: flex;
-    align-items: flex-start;
-    width: 264.57px;
-    height: 98px;
+.footer_type_address {
+    justify-self: start;
+    width: 265px;
 }
 
 .footer__menu-list-soc {
